@@ -1,0 +1,81 @@
+## Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rtifacts/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+*.ncb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Visual Studio / Rider / VS Code
+.vs/
+.idea/
+*.userprefs
+*.DotSettings.user
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+
+## NuGet
+packages/
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Publish / ClickOnce / signing
+*.publish.xml
+*.pfx
+*.Publish.xml
+PublishProfiles/
+AppPackages/
+BundleArtifacts/
+
+## Local databases & corps member data (do not publish personal records)
+*.db
+*.sqlite
+*.sqlite3
+CDSDB.db
+CDSDB.sqlite
+**/CDSAttendance/
+
+## Native SQLite interop copies at repo root
+SQLite.Interop.dll
+
+## OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+## Secrets / local config overrides
+*.local.json
+appsettings.*.local.json
+.env
+.env.*
